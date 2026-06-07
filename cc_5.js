@@ -17,3 +17,8 @@ function calculateOvertimePay(rate, hours) {
     const overtimeHours = hours - 40;
     return overtimeHours * rate * 1.5;
 }
+
+// 15% Tax Deduction
+function calculateTaxes(grossPay) {
+    return grossPay * 0.15;
+}
