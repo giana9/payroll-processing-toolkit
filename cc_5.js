@@ -44,7 +44,6 @@ function processPayroll(employee) {
 employees.forEach(emp => {
     const payroll = processPayroll(emp);
 
-    console.log("------------------------------");
     console.log(`Employee Name: ${payroll.name}`);
     console.log(`Base Pay: $${payroll.basePay}`);
     console.log(`Overtime Pay: $${payroll.overtimePay}`);
